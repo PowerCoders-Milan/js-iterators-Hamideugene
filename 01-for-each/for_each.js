@@ -1,5 +1,7 @@
-// define an array of fruits
+const brandCars = ['audi', 'volvo', 'opel', 'bmw', 'porsche']
 
-// .forEach((fruit, index) => {
-    // console.log() a message interpolating the name of the fruit and it's position in the array (index increased by 1);
-// })
+console.log(brandCars)
+const printCars = (cars, index) => console.log(`\t${index + 1} ${cars}`) 
+
+brandCars.forEach(cars => console.log(cars))  
+  brandCars.forEach(printCars)
